@@ -2,9 +2,7 @@ Minitalk - Comunicación entre Cliente y Servidor mediante Señales UNIX
 Descripción: Minitalk es un proyecto en C que permite la comunicación entre un cliente y un servidor usando señales UNIX (SIGUSR1 y SIGUSR2). El servidor muestra su PID y recibe mensajes del cliente, imprimiéndolos rápidamente. La comunicación debe ser eficiente, sin que el servidor tarde más de 1 segundo en procesar 100 caracteres.
 
 📂 Estructura
-bash
-Copiar
-Editar
+
 minitalk/
 ├── client.c            # Cliente
 ├── server.c            # Servidor
@@ -13,27 +11,15 @@ minitalk/
 🛠️ Instalación
 Compilar:
 
-sh
-Copiar
-Editar
 make
 Ejecutar el servidor:
 
-sh
-Copiar
-Editar
 ./server
 Ejecutar el cliente:
 
-sh
-Copiar
-Editar
 ./client <PID> <message>
 Limpiar archivos:
 
-sh
-Copiar
-Editar
 make clean
 make fclean
 🎯 Reglas
