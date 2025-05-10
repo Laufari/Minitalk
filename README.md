@@ -22,11 +22,13 @@ Ejecutar el cliente:
 Limpiar archivos:
 make clean
 make fclean
+
 🎯 Reglas
 La comunicación entre cliente y servidor se realiza mediante SIGUSR1 y SIGUSR2.
 El servidor debe procesar rápidamente los mensajes.
 No debe haber errores ni fugas de memoria.
 El cliente y servidor deben manejar señales con funciones como kill, signal, y otras permitidas por la norma.
+
 🎁 Bonus
 El servidor confirma cada señal recibida.
 Soporte para caracteres Unicode.
