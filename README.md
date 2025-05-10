@@ -12,16 +12,14 @@ minitalk/
 └── README.md           # Documentación
 🛠️ Instalación
 Compilar:
-
 make
-Ejecutar el servidor:
 
+Ejecutar el servidor:
 ./server
 Ejecutar el cliente:
-
 ./client <PID> <message>
-Limpiar archivos:
 
+Limpiar archivos:
 make clean
 make fclean
 🎯 Reglas
