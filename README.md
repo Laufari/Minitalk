@@ -37,3 +37,4 @@ Soporte para caracteres Unicode.
 El proyecto debe seguir las normas de la escuela 42.
 La comunicación debe ser eficiente y rápida, asegurando que el servidor pueda procesar mensajes rápidamente.
 El Makefile debe contener las reglas necesarias para compilar el proyecto correctamente.
+![diagram](https://github.com/user-attachments/assets/6d45a16c-30ec-42ff-a5e4-7d86fd170a9d)
